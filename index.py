@@ -9,6 +9,5 @@ def index():
 def hello():
     return 'Hello Flask'
 
-
-
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
